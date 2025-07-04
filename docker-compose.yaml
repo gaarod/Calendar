@@ -1,0 +1,6 @@
+services:
+  calendar-app:
+    build: .
+    container_name: calendar-app
+    ports:
+      - "8080:8080"
