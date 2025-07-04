@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: calendar
+  cache:
+    type: redis
+  data:
+    redis:
+      host: ${REDIS_HOST:localhost}
+      port: 6379

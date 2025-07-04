@@ -1,6 +1,8 @@
 package org.testtask.calendar.dto;
 
-public class DayDto {
+import java.io.Serializable;
+
+public class DayDto implements Serializable {
 
     private int dayNumber;
     private String dayOfWeek;

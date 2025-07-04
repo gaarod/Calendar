@@ -1,8 +1,9 @@
 package org.testtask.calendar.dto;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class MonthDto {
+public class MonthDto implements Serializable {
 
     public int monthNumber;
     public String monthName;
